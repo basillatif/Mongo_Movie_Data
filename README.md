@@ -2,6 +2,7 @@
 
 Project Description
 The goal of this project is to help people find good movies to watch. This project will use MongoDB. Potential users will be my friends and family. 
+
 Data Description
 The data that will be stored is rows of movies and columns that have attributes of the movies. Some of the columns are dictionaries while others are numbers or strings. 
 
