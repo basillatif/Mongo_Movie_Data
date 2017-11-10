@@ -23,3 +23,4 @@ To movies released in a specific time period
 
 Schema of the Database: Since I am using Mongo, each row of the table will be a document. 
 
+![ScreenShot](https://raw.github.com/basillatif/Mongo_Movie_Data/
