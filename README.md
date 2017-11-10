@@ -1,17 +1,25 @@
-# Mongo_Movie_Data
+# Mongo_Movie_Data (Detailed Design Document)
 
-Project Description
-The goal of this project is to help people find good movies to watch. This project will use MongoDB. Potential users will be my friends and family. 
+**Project Description**
+The goal of this project is to help people find good movies to watch. This project will use MongoDB. Potential users can be anyone who wants to make better movie selections. This project can also help to showcase my database skills and market myself for internships.  
 
-Data Description
-The data that will be stored is rows of movies and columns that have attributes of the movies. Some of the columns are dictionaries while others are numbers or strings. 
+**Data Dictionary**
+The data that will be stored is rows of movies and columns that have attributes of the movies.
 
-5 Examples of Data
-A user will be able to find the highest rated movie within a genre he likes within the last 5 years
-A user will be able to see which are the most popular secret agent movies.
-A user will be able to see the taglines of movies that he likes within a genre. 
-A user will be able to find which movies were the most expensive to make.
-A user will be able to see which movies have made the most money. 
+Final Tables/columns
+C1 - Genres: what genre categories describe the film
+C2-  Id: a unique number that identifies each row (film) in the database
+C3- Keywords: words that describe the plot of the film
+C4- Title: name of the movie
+C5- Popularity: how well-liked the movie is by IMDB users
+C6- Date: when the movie was released
+C7- Vote average: what IMDB users rated the movie out of 10 
 
-Schema of the Database
-Since I am using Mongo, each row of the table will be a document. 
+To find the highest rated movies by IMDB popularity in the entire db
+To find the highest rated movie by vote avg within a genre he likes
+To see which are the most popular movie in a genres
+To input keywords and return movies that match those words
+To movies released in a specific time period
+
+Schema of the Database: Since I am using Mongo, each row of the table will be a document. 
+
