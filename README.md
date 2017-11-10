@@ -1,6 +1,6 @@
 # Mongo_Movie_Data (Detailed Design Document)
 
-**Project Description**
+**Project Description**  
 The goal of this project is to help people find good movies to watch. This project will use MongoDB. Potential users can be anyone who wants to make better movie selections. This project can also help to showcase my database skills and market myself for internships.  
 
 **Data Dictionary**
